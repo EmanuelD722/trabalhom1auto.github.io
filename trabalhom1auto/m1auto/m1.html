@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>M1-AUTO</title>
+ <link rel="stylesheet" type="text/css" href="estilo.css" />
+
+ <script src="script.js" defer></script>
+    
+</head>
+
+<body>
+
+    <!--barra superior e favicon-->
+        <div class="barrasup">
+            <img src="imagens/m1 2.0.png" id="logo">
+        </div>
+    <!--carrosel/slider-->
+<div class="conteudo">
+<div class="carrosel">
+    <div class="container" id="img">
+        <img src="imagens/slide1.jpg">
+        <img src="imagens/slide2.jpg">
+        <img src="imagens/slide3.jpg">
+       
+    </div>
+</div>
+
+<!--api fipe-->
+<h1 id="fipetexto">JA TENS SEU VEICULO EM MENTE? CONFIRA SUA FIPE AQUI:</h1>
+    <div id="pso">
+        
+   <fieldset>
+    
+    <legend><b>Consulte seu carro aqui</b></legend>
+        <label for="marcas"> Marca/fabricante:</label>
+        <select id="marcas" onchange="fetchModelos()">
+            <option value="" selected disabled>Escolha uma marca</option>
+        </select>
+
+        <label for="modelos">Modelo:</label>
+        <select id="modelos" onchange="fetchAno()" disabled>
+            <option value="" selected disabled>Escolha um modelo</option>
+        </select>
+
+        <label for="anos">Ano:</label>
+        <select id="anos" onchange="fetchValor()" disabled>
+            <option value="" selected disabled>Escolha um ano</option>
+        </select>
+    
+    <div id="valor-display"></div>
+   </fieldset>
+</div>
+<script src="script.js"></script>
+</div>
+<!--aba de selecionados-->
+<div id="sel">
+    
+<h1> O que acha de dar uma olhada nos modelos selecionados por nossa equipe?</h1>
+<bd>
+    <img src="imagens/civic.jpg" id="imagem">
+    <div id="carros">
+        <p><b>HONDA CIVIC 1998</b></p>
+        <p1>Um classico modelo da honda confiável e potente até os tempos atuais
+            elegante e acessivel 
+        </p1>
+    </div>    
+   
+    <img src="imagens/eclipse.jpg" id="imagem">
+    <div id="carros">
+        <p><b>MITSUBISHI ECLIPSE 1998</b></p>
+        <p2>Um classico da mitsubishi confiavel e potente até os tempos atuais
+            iconico e robusto,um verdadeiro esportivo
+        </p2>
+    </div>
+
+    <img src="imagens/corolla.jpg" id="imagem">
+    <div id="carros"> 
+        <p><b>TOYOTA COROLLA 2015</b></p>
+        <p1>Um atual espaçoso, ergonômico e Luxuoso, otimo para sua familia</p1>
+    </div>
+</bd>    
+</div>
+
+
+<!--link para o contato-->
+<div class="contato">
+    <h1>ainda em dúvida sobre seu carro dos sonhos? FALE CONOSCO!</h1>
+   <a href="contato.html" target="_self"> <img id="botão-contato" src="imagens/email.png"> </a>
+   </div>
+  <div class="breve">
+    <h1>EM BREVE MAIS PRATICIDADES PARA VOCÊ!</h1>
+  </div>
+
+
+
+<div id="agradecimento">
+    <h1>Todos os direitos reservados:
+    </h1>
+    <h1>Nelson E Novais</h1>
+    <h1>Guilherme W S Mateazzo</h1>
+   
+</div>
+</div>
+</body>
+
+</html>

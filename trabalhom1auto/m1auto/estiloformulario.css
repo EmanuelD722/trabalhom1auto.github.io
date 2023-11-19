@@ -1,0 +1,97 @@
+
+
+
+/* formatação do estilo do formulario,posição,centralização e estilização*/
+body{display: flex;
+    align-items:center ;
+    justify-content: center;
+    background-image: linear-gradient(to bottom,white ,#1d1d2e) ;
+    }
+
+
+    section{display: flex;
+    align-items: center;
+    background: #1d1d2e;
+    justify-content: center;
+    flex-direction: column;
+    width: 500px;
+    padding: 10px 45px;}
+    
+    section form{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    form label{
+        color: #71719c;
+        font-size: 18px;
+        margin-bottom: 4px;
+    }
+    form input{
+        font-family: 'Courier New', Courier, monospace;
+        padding: 15px;
+        outline: none;
+        border: 0;
+        margin-bottom: 20px;
+        transition: all 0.5s;
+        background-color: #81819b;
+    }
+    /* transição ao passar o mouse*/
+    form input:hover{
+        border-radius: 16px;
+    }
+    
+    form textarea{
+        padding: 10px;
+        outline: none;
+        border:0;
+        font-size: 18px;
+        background-color: #81819b;
+        margin-bottom: 30px;
+        transform: all 0.5s;
+    }
+    /* transição ao passar o mouse */
+    form textarea:focus{
+        border-radius: 16px;}
+    form button{
+        padding:15px;
+    cursor: pointer;
+    font-size: 18px;
+    background:transparent;
+    border:2px solid #cecedf;
+    color:rgb(247, 247, 247);
+    transition: all 1s;
+    margin-bottom: 20px;
+    }
+    form button:hover{
+        background:rgb(221, 219, 219) ;
+        color: #16161f;
+        border-radius: 16px;
+    }
+
+
+/* formatação da pagina de feedback*/
+    #mensagemfeedback{
+        padding-left: 100px;
+        padding-right: 100px;
+        font-size: 25px;
+        border: 2px solid #c4bc55;
+        align-items: center;
+        justify-content: center;
+        background-color: #1d1d2e;
+        color: white;
+
+
+    }
+    #mensagemfeedback h1{
+        font-size: 20px;
+        margin-left: 140px;
+        
+
+    }
+    #home{
+        color: white;
+        margin-left:120px ;
+        width: 200px;
+    height: 200px;}

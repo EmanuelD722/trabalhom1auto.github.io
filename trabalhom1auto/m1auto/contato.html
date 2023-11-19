@@ -1,0 +1,20 @@
+
+<head>
+    <link rel="stylesheet" href="estiloformulario.css" >
+ 
+   
+</head>
+<body>
+    <section>
+<form action="feedback.html" method="post" onsubmit="return redirecionarAposEnvio()">
+
+    <label for="nome">Seu nome</label>
+    <input type="text" name="name" placeholder="Por favor digite seu nome" autocomplete="off" required>
+    <label for="email">Seu Email</label>
+    <input type="email" name="email" placeholder="agora Digite seu email" autocomplete="off" required>
+    <label for="mensagem">no que podemos ajudar?</label>
+    <textarea name="message" cols="30" rows="10" placeholder="Digite sua mensagem" required></textarea >
+    <button type="submit" onclick="Enviarmensagem()">Enviar</button>
+</form>
+</section>
+</body>

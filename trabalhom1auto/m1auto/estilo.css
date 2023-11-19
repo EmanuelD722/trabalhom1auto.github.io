@@ -1,0 +1,193 @@
+@import url("https://fonts.googleapis.com/css2?family=AR+One+Sans:wght@400;500;600&family=Playfair+Display:ital@0;1&display=swap");
+
+
+/* definindo a centralização do conteudo*/
+.campo{justify-content: center;
+align-items: center;
+flex-direction: column;}
+
+
+/*formatação do link de contato e da mensagem de em breve*/
+.contato{
+    display: inline-flex;
+   
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #c4bc55;
+    width: 400px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+.breve{
+    margin-bottom: 50px;
+    display: inline-flex;
+    margin-left:900px;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #c4bc55;
+    width: 400px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+#botão-contato{
+    height: 50px;
+    width: 50px;
+}
+
+.conteudo{text-align: center;
+    justify-content: center;}
+
+
+
+body{
+    margin: auto;
+    max-width: 1300px; /* limitando tamanho da tela */
+    background-image: linear-gradient(to bottom,white ,#1d1d2e) ;   
+    /* plano de fundo estilo gradiente*/}
+
+/* demais estilizações ,margens,fontes etc..*/
+
+label,select{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    color: white
+}
+legend{
+    font-size: 20px;
+    color: #9184aa;
+}
+
+bd{margin-bottom: 20px;
+    margin-left: 10px;
+    display: flex;
+    
+}
+
+h1{font-size: 14px;
+text-align: center;}
+
+label{
+    
+    display:flex;}
+    
+section{
+    margin-top: 20px;
+
+    padding: 24px;
+    color: black;
+    height:37vh;
+    width: 40vh;
+    margin-left: 0%;
+    padding: 0;
+    
+}
+form{
+    margin-top: 20px;
+
+    width: 400px;
+    padding: 24px;
+    color: black;
+    
+}
+/* formatação da area da api*/
+
+#pso{
+    
+    margin-bottom: 20px;
+    margin-top: 80px;
+    margin-left: 400px;
+   height: 390px;
+    width: 550px;
+display: flex;
+align-items: center;
+justify-content: center;
+background-color: #1d1d2e;
+box-shadow: 2px 2px 4px black;
+border: 2px solid #c4bc55;
+
+
+
+}
+
+#valor-display{
+    font-size:20px ;
+    
+}
+
+#fipetexto{
+    color: white;
+    font-size: 30px;
+    
+}
+
+#valor-display{
+    color: #9184aa;
+}
+#marcas{
+    background-color: #1d1d2e;
+}
+#modelos{
+    background-color: #1d1d2e;
+}
+#anos{
+    background-color: #1d1d2e;
+}
+
+/* formatação da barra superior */
+.barrasup{
+    margin-top: 0px;
+    background-color: #1b1b27;
+    box-shadow: 2px 2px 4px black;
+height: 100px;}
+
+
+/* formatando a logo/favicom*/
+
+#logo{height: 100px;
+width: 100px;
+margin-top: 0px;
+margin-left: 15px;
+
+}
+/* formatação do carrosel/slider*/
+.carrosel{
+    border: 2px solid #c4bc55;
+    margin-top:5px ;
+    box-shadow: 2px 2px 4px black;
+    overflow: hidden;
+    height: 350px;
+    width: 1300px;
+}
+
+.container{ 
+    display: flex;
+    transition: transform 0.5s ease-in-out; /* transição/estilo da transição*/
+    transform:translateX(0);
+}
+
+img{object-fit: cover;
+height: 350px;
+width: 1300px;}
+
+
+
+
+#sel{
+    border: 2px solid #c4bc55;
+    background-color: #4f4f68;
+    color: white;
+}
+
+
+
+#agradecimento{
+    color: white;
+    background-color: #1b1b27; ;
+}
+
+#imagem{
+    display: inline-block;
+width: 200px;
+height: 150px;}
